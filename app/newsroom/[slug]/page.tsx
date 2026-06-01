@@ -23,7 +23,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
         components={{
           h1: ({ children }) => <h1 className="font-normal text-xl mb-2">{children}</h1>,
           h2: ({ children }) => <h2 className="font-normal text-xl mb-2">{children}</h2>,
-          p: ({ children }) => <p className="text-gray-700 mb-4 text-justify">{children}</p>,
+          p: ({ children }) => <p className="text-gray-900 mb-4 text-justify">{children}</p>,
           a: ({ href, children }) => <a href={href} className="text-blue-500 hover:underline">{children}</a>,
           ul: ({ children }) => <ul className="list-disc list-inside mb-4">{children}</ul>,
           ol: ({ children }) => <ol className="list-decimal list-inside mb-4">{children}</ol>,
