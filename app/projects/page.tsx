@@ -7,7 +7,6 @@ export default async function projects(){
         <div>
             <div className="flex justify"><h1 className="font-bold text-xl">Projects</h1></div>
             <div className="py-6">
-            <h1 className="font-bold text-xl">Selected Projects</h1>
 
             {items.map((item) => (
 

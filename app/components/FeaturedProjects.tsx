@@ -2,6 +2,7 @@ import { getProjects } from "@/lib/projects";
 
 
 export default async function FeaturedProjects(){
+    console.log("FeaturedProjects rendered at", new Date().toISOString());
     const items = await getProjects();
 
     return (
