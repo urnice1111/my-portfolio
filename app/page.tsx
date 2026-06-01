@@ -18,7 +18,7 @@ export function Hero(){
       
       founder and ex-president. I am interested into AI, ML, Swift Development and Cloud Computing.</p>
       <p className="text-justify">As a CS student I&apos;ve been awarded into multiple competitions such as hackathons at Harvard (HackHarvard 25) and MIT (RH @MIT). As president of iTec group I am commited to lower the breach of swift developers in my community as my main objective.</p>
-      <p className="text-justify">I love to spend my free time into rocketery as I am learning to improve my model rockets; and competitive programming. My favorite language is C++! </p>
+      <p className="text-justify">I love to spend my free time into rocketery as I am learning to improve my model rockets; and competitive programming. My favorite language for ICPC is C++! </p>
     </div>
   )
 }

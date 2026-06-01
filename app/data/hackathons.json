@@ -1,0 +1,18 @@
+[
+    {
+        "name": "HackHarvard 2025",
+        "date": "2025-10-20",
+        "description": "Co-developed Lingua Spatial, an AR language immersion app for Apple Vision Pro that identifies real-world objects and displays their names in Nahuatl using AI-generated translations and speech. Led the Swift development, implementing ARKit and RealityKit for spatial interaction, managing audio buffers for ElevenLabs, and integrating Gemini API responses within the 3D environment.",
+        "status": "Won 1st place",
+        "photo": "HackHarvard.jpeg",
+        "link": [{"name": "Github", "link": "https://www.google.com"}]
+    },
+    {
+        "name": "Reality Hack MIT 2026",
+        "date": "2026-01-20",
+        "description": "Developed TierSpace for Apple Vision Pro, a collaborative XR guessing game that turns subjective opinions into 3D coordinates across multiple axes to promote dialogue and reflection. Demonstrated sustainability applications by enabling players to compare choices through tradeoffs like speed, cost, and carbon emissions. Awarded two tracks: Philip Niehaus Sustainability and Agog.",
+        "status": "Won 2 tracks",
+        "photo": "RH_MIT.jpeg",
+        "link": [{"name": "Github", "link": "https://www.google.com"}]
+    }
+]

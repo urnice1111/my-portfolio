@@ -7,7 +7,7 @@ export default async function Newsroom(){
 
     return (
         <div>
-            <div className="flex justify"><h1 className="font-bold text-xl">Newsroom</h1></div>
+            <div className="flex justify"><h1 className=" text-left font-bold text-xl">Newsroom</h1></div>
             {posts.map((post) => (
 
                 <div key={post.slug} className="flex items-start gap-3 py-1">

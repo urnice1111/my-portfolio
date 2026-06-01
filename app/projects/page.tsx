@@ -14,7 +14,7 @@ export default async function projects(){
     const pillBase = "inline-block rounded-full px-3 py-1 text-sm font-semibold";
 
     return (
-        <div className="py-6">
+        <div>
             <h1 className="font-bold text-xl">Selected Projects</h1>
 
             {items.map((item) => (
