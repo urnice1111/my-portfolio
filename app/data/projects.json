@@ -2,26 +2,30 @@
     {
         "name" : "IoT weather station",
         "featured": true,
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description" : "I designed and developed a complete weather monitoring system using an ESP32 and three environmental sensors to measure air quality, temperature, humidity, and atmospheric pressure. The collected data is structured in JSON format and sent through a custom API to Azure Event Hubs before being stored in a MySQL database managed with phpMyAdmin. I also created a React dashboard that periodically updates to visualize real-time readings and historical trends, along with a Swift-based iOS application that provides access to the same information from mobile devices.",
         "main_language" : "C++",
         "links": 
                 [
                     {
-                    "link": "https://www.google.com", 
+                    "link": "https://github.com/A01754754/Reto-Implementaci-n-del-internet-de-las-cosas---Equipo-4", 
                     "name": "Github"
                     }
                 ]
     },
     {
-        "name" : "IoT weasther station",
+        "name" : "Platform with Unity and AWS",
         "featured": false,
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "main_language" : "Python",
+        "description" : "Developed and launched a comprehensive educational platform that embeds a Unity-based mental math game, built with C#, into an interactive web environment. Designed the backend architecture using AWS Lambda, Amazon RDS, and S3, supporting user management, streamlined actions, usage analytics, website hosting, and seamless integration of the foundation’s game.",
+        "main_language" : "C#",
         "links": 
                 [
                     {
-                    "link": "https://www.google.com", 
+                    "link": "https://github.com/urnice1111/Overmath_FJ2026", 
                     "name": "Github"
+                    },
+                    {
+                    "link":"https://github.com/urnice1111/overtmath_services",
+                    "name":"Gihub"
                     }
                 ]
     }

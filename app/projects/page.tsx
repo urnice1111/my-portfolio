@@ -10,6 +10,7 @@ export default async function projects(){
         "Swift":      "bg-orange-200",
         "Rust":       "bg-red-200",
         "Go":         "bg-cyan-200",
+        "C#":         "bg-pink-200"
     };
     const pillBase = "inline-block rounded-full px-3 py-1 text-sm font-semibold";
 
@@ -23,7 +24,7 @@ export default async function projects(){
                         <div className="flex justify-between gap-4">
                             <h1>{item.name}</h1>
                             {item.links.map((link) => (
-                                <a href={link.link} key={item.name} className="text-blue-500 hover:underline">{"[" + link.name + "]"}</a>
+                                <a href={link.link} key={link.link} className="text-blue-500 hover:underline">{"[" + link.name + "]"}</a>
                             ))}
                         </div>
                         <h1 className={`${pillBase} ${languageStyles[item.main_language]}`}>{item.main_language}</h1>

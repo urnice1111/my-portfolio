@@ -13,7 +13,7 @@ export default async function hackathons(){
                         <div className="flex items-start gap-3 py-1">
                             <h1>{hack.name}</h1>
                             {hack.link.map((link) => (
-                                <a href={link.link} key={hack.name} className="text-blue-500 hover:underline">{"[" + link.name + "]"}</a>
+                                <a href={link.link} key={link.link} className="text-blue-500 hover:underline">{"[" + link.name + "]"}</a>
                             ))}
                         </div>
                         <h1>
