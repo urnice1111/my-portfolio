@@ -18,6 +18,7 @@ export function Hero(){
 }
 
 export async function Updates(){
+  //commit for prod
   const posts = await getAllPosts();
 
   const latest = posts.slice(0,4);
