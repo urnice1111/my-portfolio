@@ -1,24 +1,18 @@
 import FeaturedProjects from "./components/FeaturedProjects";
 import { getAllPosts } from "@/lib/posts";
+import Image from 'next/image'
 
 export function Hero(){
   return (
     <div className="space-y-6">
-      <h1 className="font-bold text-xl">Emiliano Garcia</h1>
-      <p className="text-justify">I am a Computer Science student at Tecnologico de Monterrey University {" "}
-      <a href="https://tec.mx/es/ingenieria-y-ciencias/ingenieria-en-tecnologias-computacionales?srsltid=AfmBOopW3LBthdhMbElUTtHjqlc7dDnNqopxPZF64GaGS3Enm4JlRgPw" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-        (ITC)
-      </a>{" "}
-      and {" "}
-      <a href="https://www.itec.community" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-        iTec&apos;s 
+      <h1 className="font-bold text-xl">Currently cooking this.</h1>
+      <h2> {"meanwhile here's my dog"}</h2>
+      <div className="flex items-center justify-center">
+          <Image className= "" src= "/coca.jpg" width={300} height = {100} alt="Emiliano's amazing dog"/>
+      </div>
+      <h3> {"-Emiliano :)"}</h3>
+      
 
-      </a> {" "}
-      
-      
-      founder and ex-president. I am interested into AI, ML, Swift Development and Cloud Computing.</p>
-      <p className="text-justify">As a CS student I&apos;ve been awarded into multiple competitions such as hackathons at Harvard (HackHarvard 25) and MIT (RH @MIT). As president of iTec group I am commited to lower the breach of swift developers in my community as my main objective.</p>
-      <p className="text-justify">I love to spend my free time into rocketery as I am learning to improve my model rockets; and competitive programming. My favorite language for ICPC is C++! </p>
     </div>
   )
 }
@@ -57,8 +51,8 @@ export default function Home() {
   return (
     <div>
       <Hero/>
-      <FeaturedProjects/>
-      <Updates/>
+      {/* <FeaturedProjects/>
+      <Updates/> */}
     </div>
 
   );

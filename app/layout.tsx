@@ -29,7 +29,7 @@ export default function RootLayout({
     >
       <body className="max-w-lg mx-auto px-6 py-10 text-center space-y-6">
         
-        <NavBar/>
+        {/* <NavBar/> */}
         {children}
       </body>
     </html>
