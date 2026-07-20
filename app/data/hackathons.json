@@ -3,9 +3,9 @@
         "name": "HackHarvard 2025",
         "date": "2025-10-20",
         "description": "Co-developed Lingua Spatial, an AR language immersion app for Apple Vision Pro that identifies real-world objects and displays their names in Nahuatl using AI-generated translations and speech. Led the Swift development, implementing ARKit and RealityKit for spatial interaction, managing audio buffers for ElevenLabs, and integrating Gemini API responses within the 3D environment.",
-        "status": "Won 1st place",
+        "status": "Won MLH track",
         "photo": "HackHarvard.jpeg",
-        "link": [{"name": "Github", "link": "https://www.google.com"}]
+        "link": [{"name": "Devpost", "link": "https://devpost.com/software/lingua-spatial?_gl=1*pvim5s*_gcl_au*NjczMzg3OTAxLjE3ODMzMzk2MTA.*_ga*OTIyNTcxMTE1LjE3ODMzMzk2MTA.*_ga_0YHJK3Y10M*czE3ODQ1MTIyMDckbzIkZzEkdDE3ODQ1MTI1NjQkajQ0JGwwJGgw"}]
     },
     {
         "name": "Reality Hack MIT 2026",
@@ -14,5 +14,13 @@
         "status": "Won 2 tracks",
         "photo": "RH_MIT.jpeg",
         "link": [{"name": "Devpost", "link": "https://devpost.com/software/tierspace"}, {"name": "Agog", "link": "https://www.linkedin.com/posts/weareagog_realityhack-xrforgood-immersivemedia-ugcPost-7422394338997080064-0Bbi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFG6fqwBrbIz9h55lBTv_sTNLSo8JhabK5M"}]
+    },
+    {
+        "name": "Swift Challenge Fest",
+        "date": "2025-06-08",
+        "description": " Created an educational AR app for users with motor disabilities to explore topics like medicine, biology, and circuits using 3D models and gamification. Strengthened skills in ARKit, RealityKit, SwiftUI, and visionOS.",
+        "status": "Won 3rd place",
+        "photo": "SCF_25.jpeg",
+        "link":[]
     }
 ]

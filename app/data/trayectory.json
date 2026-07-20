@@ -1,0 +1,23 @@
+[
+    {
+        "title": "SWE Intert at QuickMind",
+        "start_date": "2026-06",
+        "end_date": "Present",
+        "description": "I co-developed a whole software that aims to link drivers with companies that require truck fleets by implementing scrapping tools, chatbots and dashboards for final visualiaztion and trackeo de datos",
+        "main_language": "Go",
+        "skills": [
+            {
+                "skill":"Cloud Architecture"
+            },
+            {
+                "skill": "API design"
+            }
+        ],
+        "links": [
+            {
+                "name":"QuickMind",
+                "link":"https://quickmind.mx"
+            }
+        ]
+    }
+]
