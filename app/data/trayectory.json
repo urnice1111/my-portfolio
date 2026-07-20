@@ -19,5 +19,27 @@
                 "link":"https://quickmind.mx"
             }
         ]
+    },
+    {
+        "title": "Founder & President of iTec",
+        "start_date": "2025-02",
+        "end_date": "2026-05",
+        "description": "Lead and coordinate a student group focused on learning and promoting Swift development. Organize workshops, Hackathons, and collaborative projects to help members strengthen their iOS programming skills. Represent the group in intercollegiate events and work with faculty to integrate Swift into student innovation initiatives.",
+        "main_language": "Swift",
+        "skills": [
+            {
+                "skill":"Cloud Architecture"
+            },
+            {
+                "skill": "API design"
+            }
+        ],
+        "links": [
+            {
+                "name":"QuickMind",
+                "link":"https://quickmind.mx"
+            }
+        ]
     }
+
 ]

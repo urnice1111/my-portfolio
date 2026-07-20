@@ -17,7 +17,7 @@ export default async function Trayectory(){
         <div>
             <h1 className="text-left font-bold text-xl">Trayectory</h1>
             {trayectory.map((job) => (
-                <div key={job.title}>
+                <div key={job.title} className="py-2">
                     <div className="flex justify-between items-center py-2">
                         <div className="flex items-start gap-3">
                             <h1>{job.title}</h1>

@@ -10,7 +10,7 @@ export default async function projects(){
         "Swift":      "bg-orange-200",
         "Rust":       "bg-red-200",
         "Go":         "bg-cyan-200",
-        "C#":         "bg-pink-200"
+        "C#":         "bg-red-200"
     };
     const pillBase = "inline-block rounded-full px-3 py-1 text-sm font-semibold";
 
